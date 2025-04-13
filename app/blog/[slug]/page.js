@@ -1,4 +1,4 @@
-export default function BlogPage({ params }) {
+export default function generateStaticParams({ params }) {
   return (
     <div>
       <header>Hello! {params.slug}</header>
